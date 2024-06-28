@@ -12,6 +12,9 @@ Projeto desenvolvido no curso Java Spring Professional - Devsuperior
 
 # Tecnologias usadas
 - Java
+- Spring initializr
+- Spring Framework
+- Eclipse IDE
 
 # Autor
 
