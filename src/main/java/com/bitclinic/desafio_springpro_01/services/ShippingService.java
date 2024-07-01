@@ -7,7 +7,17 @@ public class ShippingService {
 	public ShippingService() {}
 	
 	public double shipment(Order order) {
-		return 0.0;
+		
+		double shipmentValue = 0.0;
+		
+		if (order.getBasic() > 100.00 ||  order.getBasic() < 200.00) {
+			shipmentValue = 12.00;
+		}
+		else if (order.getBasic() < 100.00) {
+			shipmentValue = 20.00;
+		}
+	
+		return shipmentValue;
 	}
 
 }
