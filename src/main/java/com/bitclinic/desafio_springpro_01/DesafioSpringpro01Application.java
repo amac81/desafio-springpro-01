@@ -43,5 +43,4 @@ public class DesafioSpringpro01Application implements CommandLineRunner {
 		System.out.printf("Valor Total = R$ %.2f%n", orderService.total(order));
 		
 	}
-
 }
